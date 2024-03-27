@@ -8,8 +8,8 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class PlacesService {
   final dio = Dio();
-  final String baseUrl = 'https://maps.googleapis.com/maps/api/place';
-  final String apiKey = 'AIzaSyCp0KTKCmko_TOhjj7x6BL5X8xhXPEshds';
+  final String baseUrl = 'YOUR API KEY ';
+  final String apiKey = 'YOUR API KEY ';
 
   Future<List<PlaceAutocompleteModel>?> getPerdictions(
       {required String input, required String seesionToken}) async {
