@@ -1,4 +1,5 @@
-# flutter_application_2
+# google_maps_flutter
+
 
 A new Flutter project.
 
