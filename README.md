@@ -4,14 +4,17 @@
 A new Flutter project.
 
 ## Getting Started
+To integrate Google Maps into your Flutter app, follow these steps:
 
-This project is a starting point for a Flutter application.
+1- Configure Google Maps API:
+  Open the Google Developers Console.
+  Make sure your project is selected in the dropdown at the top.
+  Click on the Library menu on the left.
+  Find the Maps section.
+  Enable the following APIs:
+  Maps SDK for Android
+  Maps SDK for iOS
+  Maps JavaScript API
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2- Add the Google Maps Flutter Plugin ( google_maps_flutter: ^2.0.10) In your pubspec.yaml file, add the following dependency
+3- when you get the api key you must but your api key inside these folder in the project ( placesService and routesService) in this project
